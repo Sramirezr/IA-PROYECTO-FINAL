@@ -1,0 +1,21 @@
+.env
+__pycache__/
+*.pyc
+*.log
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Datos generados localmente
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+reports/figures/*
+!reports/figures/.gitkeep
+evaluation/agent_results.csv
+
+# Artefactos comprimidos de entrega
+*.zip
+*.rar
+*.7z
