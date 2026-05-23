@@ -93,6 +93,10 @@ python scripts/check_project.py --strict-artifacts
 streamlit run src/app/streamlit_app.py
 ```
 
+### Video demo
+
+Grabación de la demo (máx. 3 minutos): [https://youtu.be/G5WZkjLMcaw](https://youtu.be/G5WZkjLMcaw)
+
 ---
 
 ## Flujo recomendado
