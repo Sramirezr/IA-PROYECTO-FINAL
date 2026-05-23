@@ -4,6 +4,7 @@ __pycache__/
 *.log
 .ipynb_checkpoints/
 .venv/
+.venv_ia/
 venv/
 
 # Datos generados localmente
