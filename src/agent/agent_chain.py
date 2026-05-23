@@ -28,7 +28,7 @@ def _parse_json_response(raw_text: str) -> dict:
     return data
 
 
-def evaluate_candidate(pdf_path: str, job_description: str, model: str = "llama3-70b-8192") -> dict:
+def evaluate_candidate(pdf_path: str, job_description: str, model: str = "llama-3.1-8b-instant") -> dict:
     if len(job_description.strip().split()) < 5:
         raise ValueError("La descripcion de la vacante es demasiado corta.")
 
